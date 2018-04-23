@@ -12,7 +12,6 @@ const mongoose = require('mongoose');
 const app = express();
 
 //load Routes
-
 const ideas = require('./routes/ideas');
 const users = require('./routes/users')
 

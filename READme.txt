@@ -1,0 +1,3 @@
+- Video idea form has two fields "title" and "details" both of wohc must be filled else flash messages appear and errors prevent form button from being able to submit
+- on successful submission of form titlw and details are send via 'post' request to mongodb and added to database
+-ideas list section accesses mongodb via 'get' request and gets complete list of all idea titles and details and renders list.  
